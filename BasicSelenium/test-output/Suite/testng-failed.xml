@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browsername" value="edg"/>
+    <parameter name="url" value="https://www.facebook.com"/>
+    <classes>
+      <class name="TakeScreenshot.CrossBrowserExecution">
+        <methods>
+          <include name="crossBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TakeScreenshot.CrossBrowserExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
