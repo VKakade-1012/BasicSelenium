@@ -28,6 +28,7 @@ public class CrossBrowserExecution
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(url);
 		
+		
 		Thread.sleep(2000);
 		driver.quit();
 	}
